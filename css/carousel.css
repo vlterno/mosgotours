@@ -73,16 +73,15 @@ body {
   padding-top: 150px;
 }
 
-.button-t-h-b {
+.title-h-b h1 {
+  line-height: 5rem;
+}
+
+.mini-title-t-h-b {
   background-color: #e02b30;
   border: none;
   padding: 5px 25px 5px 25px;
-  font-size: 3rem;
-}
-
-.button-t-h-b:hover, .button-t-h-b:focus, .button-t-h-b:active {
-  background-color: #fff;
-  color: #000;
+  font-size: 2rem;
 }
 
 /* MARKETING CONTENT
