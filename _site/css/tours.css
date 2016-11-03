@@ -1,0 +1,18 @@
+.tour-head h3 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+.tour {
+	padding-bottom: 60px;
+	font-size: 1.5rem;
+}
+
+.head-block-tour {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 5rem;
+  text-align: center;
+}

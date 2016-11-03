@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+  <title>Mosgotours</title>
+  <link href="http://localhost:4000/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://localhost:4000/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <script src="http://localhost:4000/js/ie-emulation-modes-warning.js"></script>
+  <link href="http://localhost:4000/css/custom.css" rel="stylesheet">
+  <link href="http://localhost:4000/css/tours.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/7ed8047cc8.js"></script>
+</head>
+
+<style type="text/css">
+  .head-block-tour { 
+    height: 500px;
+    background-image: url(/images/msu.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+
+<body>  
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="logo" src="http://localhost:4000/images/logo.png">  
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">  
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active nav-link"><a href="http://localhost:4000/index.html">Home</a></li>
+          <li><a class="nav-link" href="#">Tours</a></li>
+          <li><a class="nav-link" href="#">Guides</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="head-block-tour">
+    <div class="title-h-b">
+      <h1>Lomonosov Moscow State University (free tour)</h1>
+      <p class="mini-title-t-h-b">From locals with love</p>
+    </div>
+  </div>
+
+  <div class="container tour">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Description</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p><p>Lomonosov MSU is rated as one of the most beautiful universities in the world and rightly so! On this free tour we will reveal the university’s enchanting history, full of famous people, mysterious legends and the enthralling stories only local students know best. You’ll see the must-see sites &amp; secrets, and of course we’ll give you the best recommendations for the rest of your trip, all while you meet other like-minded travelers. 
+Due to the fact that Moscow State University is an educational establishment, entrance to the building is forbidden to outsiders. But our fantastic guides know all the tricks to show you as much as possible on the site!</p>
+
+<ul>
+  <li>Fundamental Library</li>
+  <li>Shuvalov monument</li>
+  <li>Chemistry department</li>
+  <li>Physics department</li>
+  <li>Lomonosov statue</li>
+  <li>Main building of MSU</li>
+  <li>University Square</li>
+  <li>Sparrow Hills</li>
+</ul>
+</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Meeting Point</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>We will be waiting for you near the Shuvalov monument in front of the Fundamental Library of Moscow State University.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Schedule</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>Every Thursday and Saturday at 5 PM</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Directions</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>To reach the meeting point, you need to go to Universitet metro station (метро Университет), on the red line (line 1). Once you have arrived at the station, you will need to take the escalator (do not take the exit with the stairs). When you are outside the station with the main street in front of you, walk along it (do not cross it) with the traffic to your right, in the direction of Moscow State University. After a 7-10 minute walk, you will reach the Fundamental Library of Moscow State University. In front of it is a monument to Shuvalov. Congratulations, you are at the meeting point! For more detailed information, see the photos and the map below.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot-block">
+    <div class="container foot-container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 social">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <p>&copy; 2016 MosGoTours, Inc.</p>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <a href="#">info@mosgotours.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="http://localhost:4000/js/bootstrap.min.js"></script>
+  <script src="http://localhost:4000/js/holder.min.js"></script>
+  <script src="http://localhost:4000/js/ie10-viewport-bug-workaround.js"></script>
+
+  <script type="text/javascript">
+    function checkScroll() {
+      var startY = $('.navbar-default').height() * 2;
+
+      if ($(window).scrollTop() > startY) {
+        $('.navbar-default').addClass("scrolled");
+        $('.nav-link').addClass("nav-link-replace");
+      } else {
+        $('.navbar-default').removeClass("scrolled");
+        $('.nav-link').removeClass("nav-link-replace");
+      }
+    }
+
+    $(window).on("scroll load resize", function(){
+      checkScroll();
+    });
+  </script>
+</body>
+</html>

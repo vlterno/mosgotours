@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+  <title>{{ site.title }}</title>
+  <link href="{{ "css/bootstrap.min.css" | absolute_url }}" rel="stylesheet">
+  <link href="{{ "css/ie10-viewport-bug-workaround.css" | absolute_url }}" rel="stylesheet">
+  <script src="{{ "js/ie-emulation-modes-warning.js" | absolute_url }}"></script>
+  <link href="{{ "css/custom.css" | absolute_url }}" rel="stylesheet">
+  <link href="{{ "css/tours.css" | absolute_url }}" rel="stylesheet">
+  <script src="https://use.fontawesome.com/7ed8047cc8.js"></script>
+</head>
+
+<style type="text/css">
+  .head-block-tour { 
+    height: 500px;
+    background-image: url({{ page.background }});
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+
+<body>  
+
+{% include header.html %}
+
+  <div class="head-block-tour">
+    <div class="title-h-b">
+      <h1>{{ page.title }}</h1>
+      <p class="mini-title-t-h-b">From locals with love</p>
+    </div>
+  </div>
+
+  <div class="container tour">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Description</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>{{ content }}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Meeting Point</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>{{ page.meeting_point }}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Schedule</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>{{ page.schedule }}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Directions</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>{{ page.directions }}</p>
+      </div>
+    </div>
+  </div>
+
+{% include footer.html %}
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="{{ "js/bootstrap.min.js" | absolute_url }}"></script>
+  <script src="{{ "js/holder.min.js" | absolute_url }}"></script>
+  <script src="{{ "js/ie10-viewport-bug-workaround.js" | absolute_url }}"></script>
+
+  <script type="text/javascript">
+    function checkScroll() {
+      var startY = $('.navbar-default').height() * 2;
+
+      if ($(window).scrollTop() > startY) {
+        $('.navbar-default').addClass("scrolled");
+        $('.nav-link').addClass("nav-link-replace");
+      } else {
+        $('.navbar-default').removeClass("scrolled");
+        $('.nav-link').removeClass("nav-link-replace");
+      }
+    }
+
+    $(window).on("scroll load resize", function(){
+      checkScroll();
+    });
+  </script>
+</body>
+</html>
