@@ -13,28 +13,30 @@ layout: home
 </div>
 
 <div class="container marketing">
-  {% for post in site.posts %}
+  
   <div class="row">
+  {% for post in site.posts %}
     <div class="col-md-4 col-lg-4">
-    <img class="img-circle" src="{{ "images/lomonosov_msu.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
+      <img class="img-circle" src="{{ post.icon }}" alt="Generic placeholder image" width="140" height="140">
       <h2>{{ post.title }}</h2>
       <p>{{ post.description_tour }}</p>
-      <p><a class="btn btn-default" href="{{ post.url }}" role="button">Let's go! &raquo;</a></p>
+      <p><a class="btn btn-default" href="{{ post.url }}" role="button" {{ post.status }}>Let's go! &raquo;</a></p>
     </div>
-    <div class="col-md-4 col-lg-4">
+<!--     <div class="col-md-4 col-lg-4">
       <img class="img-circle" src="{{ "images/moscow_metro.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
       <h2>Moscow Metro tour</h2>
       <p>Moscow Metro is a rapid transit system serving Moscow, Russia and the neighbouring Moscow Oblast towns of Krasnogorsk, Reutov, Lyubertsy and Kotelniki. Opened in 1935. As of 2016, the Moscow Metro has 203 stations.</p>
       <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div>
-    <div class="col-md-4 col-lg-4">
+    </div> -->
+<!--     <div class="col-md-4 col-lg-4">
       <img class="img-circle" src="{{ "images/moscow_city.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
       <h2>Moscow City tour</h2>
       <p>Moscow International Business Center “Moscow City” is a commercial district. MIBC includes 6 skyscrapers with maximum height of 300 meters or more. Europe's tallest building, the Federation Tower, is in the Moscow IBC.</p>
       <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div>
+    </div> -->
+    {% endfor %}
   </div>
-  {% endfor %}
+  
 
 <!--   <div class="row">
     <div class="col-md-4 col-lg-4">

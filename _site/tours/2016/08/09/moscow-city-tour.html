@@ -12,12 +12,22 @@
   <link href="http://mosgotours.tk/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <script src="http://mosgotours.tk/js/ie-emulation-modes-warning.js"></script>
   <link href="http://mosgotours.tk/css/custom.css" rel="stylesheet">
+  <link href="http://mosgotours.tk/css/tours.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/7ed8047cc8.js"></script>
 </head>
 
-<body>
+<style type="text/css">
+  .head-block-tour { 
+    height: 500px;
+    background-image: url(/images/bg_moscow_city.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+</style>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+<body>  
+
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,29 +48,53 @@
     </div>
   </nav>
 
-	 <div class="block-3">
-  <div class="container projects">
-    <div class="row">
-      <div class="twelve columns block-header">
-        <h4>Партнёры</h4>
-      </div>
-    </div>
-    <div class="container">
-      <table class="u-full-width">
-        
-        <tr class="wrapper">
-          <td class="content-right"><img class="u-max-full-width partner-logo" src="http://mosgotours.tk/images/partners/skoltech.png" /></td>
-          <td class="content-left">&#171;The mission of Skoltech is to educate students, advance knowledge, and foster innovation  in order to address critical scientific, technological, and innovation challenges and gaps facing Russia  and the world.&#187;
-</td>
-        </tr>
-        
-      </table>
+  <div class="head-block-tour">
+    <div class="title-h-b">
+      <h1>MIBC Moscow City Tour</h1>
+      <p class="mini-title-t-h-b">From locals with love</p>
     </div>
   </div>
-</div>
 
-   
-	  <footer class="foot-block">
+  <div class="container tour">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Description</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p><p>n/a</p>
+</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Meeting Point</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>n/a</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Schedule</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>n/a</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 tour-head">
+        <h3>Directions</h3>
+      </div>
+      <div class="col-md-8 col-lg-8">
+        <p>n/a</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot-block">
     <div class="container foot-container">
       <div class="row">
         <div class="col-md-4 col-lg-4 social">
@@ -85,7 +119,7 @@
 
   <script type="text/javascript">
     function checkScroll() {
-      var startY = $('.navbar-default').height() * 1;
+      var startY = $('.navbar-default').height() * 2;
 
       if ($(window).scrollTop() > startY) {
         $('.navbar-default').addClass("scrolled");
