@@ -22,42 +22,8 @@ layout: home
       <p>{{ post.description_tour }}</p>
       <p><a class="btn btn-default" href="{{ post.url }}" role="button" {{ post.status }}>Let's go! &raquo;</a></p>
     </div>
-<!--     <div class="col-md-4 col-lg-4">
-      <img class="img-circle" src="{{ "images/moscow_metro.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
-      <h2>Moscow Metro tour</h2>
-      <p>Moscow Metro is a rapid transit system serving Moscow, Russia and the neighbouring Moscow Oblast towns of Krasnogorsk, Reutov, Lyubertsy and Kotelniki. Opened in 1935. As of 2016, the Moscow Metro has 203 stations.</p>
-      <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div> -->
-<!--     <div class="col-md-4 col-lg-4">
-      <img class="img-circle" src="{{ "images/moscow_city.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
-      <h2>Moscow City tour</h2>
-      <p>Moscow International Business Center “Moscow City” is a commercial district. MIBC includes 6 skyscrapers with maximum height of 300 meters or more. Europe's tallest building, the Federation Tower, is in the Moscow IBC.</p>
-      <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div> -->
     {% endfor %}
   </div>
-  
-
-<!--   <div class="row">
-    <div class="col-md-4 col-lg-4">
-    <img class="img-circle" src="{{ "images/lomonosov_msu.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
-      <h2>Lomonosov Moscow State University <br> (free tour)</h2>
-      <p>The tour covers all the must-see sites, stories & legends of the university and ends at the viewing platform on Sparrow Hills.</p>
-      <p><a class="btn btn-default" href="#" role="button">Let's go! &raquo;</a></p>
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <img class="img-circle" src="{{ "images/moscow_metro.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
-      <h2>Moscow Metro tour</h2>
-      <p>Moscow Metro is a rapid transit system serving Moscow, Russia and the neighbouring Moscow Oblast towns of Krasnogorsk, Reutov, Lyubertsy and Kotelniki. Opened in 1935. As of 2016, the Moscow Metro has 203 stations.</p>
-      <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div>
-    <div class="col-md-4 col-lg-4">
-      <img class="img-circle" src="{{ "images/moscow_city.jpg" | absolute_url }}" alt="Generic placeholder image" width="140" height="140">
-      <h2>Moscow City tour</h2>
-      <p>Moscow International Business Center “Moscow City” is a commercial district. MIBC includes 6 skyscrapers with maximum height of 300 meters or more. Europe's tallest building, the Federation Tower, is in the Moscow IBC.</p>
-      <p><a class="btn btn-default" href="#" role="button" disabled>Coming soon!</a></p>
-    </div>
-  </div> -->
 
   <hr class="featurette-divider">
 
@@ -67,7 +33,7 @@ layout: home
       <p class="lead">We love our university and we love sharing it with fun-lovin' curious travelers, so you can really get to understand the remarkable and unique wonderland that is Lomonosov MSU.</p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" src="{{ "images/moscow_state_university.jpg" | absolute_url }}" alt="Generic placeholder image">
+      <img class="featurette-image img-responsive center-block" src="{{ "images/moscow_state_university.jpg" | relative_url }}" alt="Generic placeholder image">
     </div>
   </div>
 
