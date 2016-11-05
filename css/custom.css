@@ -15,6 +15,14 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #2d2d2d;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f00;
+    background-color: rgba(255, 255, 255, 0);
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -91,7 +99,7 @@ a:focus, a:hover {
   font-size: 2rem;
   width: 400px;
   margin: 0 auto;
-  font-size: 300;
+  font-weight: 300;
 }
 
 /* MARKETING CONTENT

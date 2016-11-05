@@ -33,35 +33,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-teamates:
-  - name:       Evgeni Bikov
-    display:    Женя
-    avatar:     ../images/team/Evgeni_Bikov.png
-    twitter:    none
-    vk:         none
-    fb:         none
-    projects:   none
-    cv:         none
-    github:     none
-    email:      none
-    phone:      none
-    hashtags:   none
-    skills:     none
-    slack:      none
-
-partners:
-  - name:       Skoltech
-    logo:       images/partners/skoltech.png
-    website:    none
-    description: >
-      &#171;The mission of Skoltech is to educate students, advance knowledge, and foster innovation 
-      in order to address critical scientific, technological, and innovation challenges and gaps facing Russia 
-      and the world.&#187;
-
 navigation:
-  - text:       О нас 
-    url:        /    
-  - text:       Команда 
-    url:        /team/
-  - text:       Партнеры
-    url:        /partners/
+  - text:       Guides
+    url:        /guides/ 
+  - text:       Tours 
+    url:        /tours/
+  - text:       Home 
+    url:        /   

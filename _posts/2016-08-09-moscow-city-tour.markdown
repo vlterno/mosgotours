@@ -18,5 +18,7 @@ icon: /images/icon_moscow_city.jpg
 
 status: disabled
 
+status-button: coming soon
+
 ---
 n/a

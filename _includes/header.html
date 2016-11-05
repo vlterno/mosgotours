@@ -9,12 +9,13 @@
         </button>
         <img class="logo" src="{{ "/images/logo.png" }}">  
       </div>
-      <div id="navbar" class="navbar-collapse collapse">  
+      <div id="navbar" class="navbar-collapse collapse">
+        {% assign url = page.url|remove:'' %}
+        {% for link in site.navigation %}  
         <ul class="nav navbar-nav navbar-right">
-          <li class="active nav-link"><a href="{{ "/" }}">Home</a></li>
-          <li><a class="nav-link" href="{{ "/tours" }}">Tours</a></li>
-          <li><a class="nav-link" href="#">Guides</a></li>
+          <li {% if url == link.url %} class="active nav-link" {% endif %}><a href="{{link.url}}">{{link.text}}</a></li>
         </ul>
+        {% endfor %}
       </div>
     </div>
   </nav>

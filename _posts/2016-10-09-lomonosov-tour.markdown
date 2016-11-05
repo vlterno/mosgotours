@@ -19,6 +19,8 @@ icon: /images/icon_msu.jpg
 
 status: enabled
 
+status-button: Go
+
 ---
 Lomonosov MSU is rated as one of the most beautiful universities in the world and rightly so! On this free tour we will reveal the university’s enchanting history, full of famous people, mysterious legends and the enthralling stories only local students know best. You'll see the must-see sites & secrets, and of course we'll give you the best recommendations for the rest of your trip, all while you meet other like-minded travelers. 
 Due to the fact that Moscow State University is an educational establishment, entrance to the building is forbidden to outsiders. But our fantastic guides know all the tricks to show you as much as possible on the site!

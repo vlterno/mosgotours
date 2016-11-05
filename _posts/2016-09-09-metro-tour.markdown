@@ -18,5 +18,8 @@ background: /images/bg_metro.jpg
 icon: /images/icon_metro.jpg
 
 status: disabled
+
+status-button: coming soon
+
 ---
 n/a

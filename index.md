@@ -20,7 +20,7 @@ layout: home
       <img class="img-circle" src="{{ post.icon }}" alt="Generic placeholder image" width="140" height="140">
       <h2>{{ post.title }}</h2>
       <p>{{ post.description_tour }}</p>
-      <p><a class="btn btn-default" href="{{ post.url }}" role="button" {{ post.status }}>Let's go! &raquo;</a></p>
+      <p><a class="btn btn-default" href="{{ post.url }}" role="button" {{ post.status }}>{{ post.status-button }}</a></p>
     </div>
     {% endfor %}
   </div>
