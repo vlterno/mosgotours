@@ -20,3 +20,15 @@
 .mini-title-t-h-b {
 	font-weight: 300;
 }
+
+/*MAP*/
+.map {
+  padding-right: 0px;
+  padding-left: 0px;
+	margin: 0 auto;
+}
+
+.map-frame {
+	width: 100%;
+}
+
