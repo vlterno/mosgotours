@@ -6,26 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="/favicon.ico">
   <title>Mosgotours</title>
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <script src="/js/ie-emulation-modes-warning.js"></script>
   <link href="/css/custom.css" rel="stylesheet">
-  <link href="/css/tours.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/7ed8047cc8.js"></script>
 </head>
 
-<style type="text/css">
-  .head-block-tour { 
-    height: 500px;
-    background-image: url(/images/bg_moscow_city.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-</style>
-
-<body>  
+<body>
 
     <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -42,7 +32,7 @@
         
           
         <ul class="nav navbar-nav navbar-right">
-          <li ><a href="/guides/">Guides</a></li>
+          <li  class="active nav-link" ><a href="/guides/">Guides</a></li>
         </ul>
           
         <ul class="nav navbar-nav navbar-right">
@@ -57,66 +47,51 @@
     </div>
   </nav>
 
-  <div class="head-block-tour">
-    <div class="title-h-b">
-      <h1>MIBC Moscow City Tour</h1>
-      <p class="mini-title-t-h-b">From locals with love</p>
-    </div>
+	 <style type="text/css">
+  .head-block {
+    height: 500px;
+    margin-bottom: 60px;
+    background-image: url(../images/bg_guides.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 5rem;
+    text-align: center;
+}  
+</style>
+
+<div class="head-block">
+  <div class="title-h-b">
+    <h1>Our guides</h1>
+    <p class="mini-title-t-h-b">From locals with love</p>
   </div>
+</div>
 
-  <div class="container tour">
-    <div class="row">
-
-      <div class="col-md-9 col-lg-9">
-        <div class="row">
-          <div class="col-md-4 col-lg-4 tour-head">
-            <h3>Description</h3>
-          </div>
-          <div class="col-md-8 col-lg-8">
-            <p><p>n/a</p>
+<div class="container marketing guides">
+  
+  
+  <div class="row">
+    <div class="col-md-4 col-lg-4 guide-logo">
+      <img class="img-circle" src="/images/avatar_anna.jpg" alt="Generic placeholder image" width="140" height="140" />
+    </div>
+    <div class="col-md-8 col-lg-8">
+      <h2>Anna</h2>
+      <p>Anna has herself experienced MSU from different points of view as a young child taken for a walk around the campus  by her father, himself an MSU graduate, as a schoolgirl coming for math classes and getting lost in the Main Building  (wanna hear some spooky stories about the university? She's the one to ask), as a Young Philologist School pupil and  now as a third year student of linguistics and literature. She's an easy-going scientist ready to help you fall in love  with MSU, and she sure has done her research! Do you want to know what an 18-century professor would look like? Which  student tradition involves a huge annual snowball battle? What the MSU Main Building has in common with the National  Theatre in London? Interested in history? Biotechnology? Poetry? Paragliding? Come and ask Anna! She's the perfect  person to help you explore both the historic and the modern bits of university life.
 </p>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-4 col-lg-4 tour-head">
-            <h3>Meeting Point</h3>
-          </div>
-          <div class="col-md-8 col-lg-8">
-            <p>n/a</p>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-4 col-lg-4 tour-head">
-            <h3>Schedule</h3>
-          </div>
-          <div class="col-md-8 col-lg-8">
-            <p>n/a</p>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-4 col-lg-4 tour-head">
-            <h3>Directions</h3>
-          </div>
-          <div class="col-md-8 col-lg-8">
-            <p>n/a</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-lg-3">
-        <!-- contact form -->
-      </div>
-    </div>
+      <h4>Languges:</h4>
+      <p>English, Russian</p>
+      <h4>Tour:</h4>
+      <p>Lomonosov MSU</p>
+   </div>
   </div>
+  
 
-  <div class="container map">
-    
-  </div>
+</div>
 
-    <footer class="foot-block">
+   
+	  <footer class="foot-block">
     <div class="container foot-container">
       <div class="row">
         <div class="col-md-4 col-lg-4 social">
@@ -143,7 +118,7 @@
 
   <script type="text/javascript">
     function checkScroll() {
-      var startY = $('.navbar-default').height() * 2;
+      var startY = $('.navbar-default').height() * 1;
 
       if ($(window).scrollTop() > startY) {
         $('.navbar-default').addClass("scrolled");

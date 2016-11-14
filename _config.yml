@@ -39,4 +39,19 @@ navigation:
   - text:       Tours 
     url:        /tours/
   - text:       Home 
-    url:        /   
+    url:        /
+
+guides:
+  - name: Anna
+    avatar: /images/avatar_anna.jpg
+    description: > 
+      Anna has herself experienced MSU from different points of view as a young child taken for a walk around the campus 
+      by her father, himself an MSU graduate, as a schoolgirl coming for math classes and getting lost in the Main Building 
+      (wanna hear some spooky stories about the university? She's the one to ask), as a Young Philologist School pupil and 
+      now as a third year student of linguistics and literature. She's an easy-going scientist ready to help you fall in love 
+      with MSU, and she sure has done her research! Do you want to know what an 18-century professor would look like? Which 
+      student tradition involves a huge annual snowball battle? What the MSU Main Building has in common with the National 
+      Theatre in London? Interested in history? Biotechnology? Poetry? Paragliding? Come and ask Anna! She's the perfect 
+      person to help you explore both the historic and the modern bits of university life.
+    languages: English, Russian
+    tour: Lomonosov MSU

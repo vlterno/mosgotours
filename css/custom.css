@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500');
 
 body {
-  font-family: 'Raleway', "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 
@@ -13,6 +13,10 @@ a {
 a:focus, a:hover {
     color: #e02b30;
     text-decoration: underline;
+}
+
+h4 {
+  font-weight: 300;
 }
 
 .btn-default {
@@ -139,6 +143,14 @@ a:focus, a:hover {
   font-weight: 200;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.guides {
+  padding-bottom: 50px;
+}
+
+.guide-logo {
+  padding-top: 20px;
 }
 
 /*FOOTER*/
